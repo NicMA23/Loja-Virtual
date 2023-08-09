@@ -155,11 +155,11 @@ footer .main-container p {
     }
 
     .grid {
-        grid-template-columns: repeat(2, 48.5%);
+        grid-template-columns: repeat(3, 31.5%);
     }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 745px) {
     .sobre img {
         height: 240px;
         width: 420px;
@@ -173,6 +173,10 @@ footer .main-container p {
 
     .sobre p {
         margin-top: 2%;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 48.5%);
     }
 }
 
